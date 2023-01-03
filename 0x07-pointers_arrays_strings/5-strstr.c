@@ -16,7 +16,7 @@ char *_strstr(char *haystack, char *needle)
 		str1 = haystack; /*values*/
 		str2 = needle;
 
-		/*star WHILE*/
+		/*Star WHILE*/
 		while (*haystack != '\0' && *str2 != '\0' && *haystack == *str2)
 		{
 			haystack++;
@@ -24,7 +24,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (*str2 == '\0')
 			return (str1);
-		hay stack = str1 + 1;
+		haystack = str1 + 1;
 	}
 	return (0);
 }
