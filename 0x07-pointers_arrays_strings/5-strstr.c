@@ -3,7 +3,7 @@
 /**
  * _strstr - first occurrence of the substring needle in the string haystack
  * @haystack: main str to be examined
- * @meedle: searched in haystack
+ * @needle: searched in haystack
  * Return: return 0
  **/
 
